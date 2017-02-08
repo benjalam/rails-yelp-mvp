@@ -52,7 +52,17 @@
   <%= f.error_notification %>
   <div class="form-inputs">
     <%= f.input :content %>
-    <%= f.input :rating %>
+    <div class="hidden">
+    <%= f.input :rating%>
+    </div>
+    <ul class="list-inline">
+    <li id="0" class="rating">0</li>
+    <li id="1" class="rating">1</li>
+    <li id="2" class="rating">2</li>
+    <li id="3" class="rating">3</li>
+    <li id="4" class="rating">4</li>
+    <li id="5" class="rating">5</li>
+    </ul>
   </div>
 
   <div class="form-actions">

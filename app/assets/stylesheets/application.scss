@@ -18,3 +18,15 @@
 .logo {
   width:10px;
 }
+
+.rating {
+    width: 25px;
+    border: solid black 1px;
+    border-radius: 50%;
+    border-color: black;
+    text-align: center;
+}
+
+.rating:hover {
+  background-color: #E6E6E6;
+}

@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+  $(".rating").click(function(){
+    var rating = $(this).text();
+    $("#review_rating").val(rating);
+    $(this).css("background-color", "green")
+  });
+  });
